@@ -1,0 +1,134 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    font-family: Arial, sans-serif; /* Tipografía general */
+    color: #ffffff; /* Color de texto predeterminado */
+}
+
+header {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente negro a verde */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent; /* Bordes iniciales */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: border-color 0.3s; /* Transición suave */
+}
+
+header nav ul li a:hover {
+    border-color: #00e676; /* Color de borde en hover */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(40, 40, 40, 0.9); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border-radius: 0.5rem;
+    background-color: #2d2d2d; /* Fondo de tarjetas */
+    transition: transform 0.2s; /* Transición suave al pasar el mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.card-body {
+    padding: 1.25rem;
+    color: #ffffff; /* Texto claro en tarjetas */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #00e676; /* Color verde para títulos */
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #00e676; /* Verde */
+    border-color: #00e676; /* Borde del botón */
+    color: #ffffff; /* Color de texto del botón */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el mouse */
+    color: #00e676; /* Texto verde al pasar el mouse */
+    border-color: #00e676; /* Borde verde al pasar el mouse */
+}
+
+footer {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente negro a verde */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: auto; /* Ajustar altura automáticamente */
+}
+
+.imagen {
+    width: 120px;
+    height: 130px;
+}
+
+.imagen-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Asegurar que el footer esté al final */
+html, body {
+    height: 100%;
+}
+
+main {
+    flex: 1; /* Permitir que el main ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+}
+

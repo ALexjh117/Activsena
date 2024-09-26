@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+}
+
+header {
+    background-color: #343a40; /* Color oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.configuracion-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #2d2d2d; /* Fondo oscuro */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #444; /* Borde gris oscuro */
+}
+
+section h2 {
+    margin-top: 0;
+    background-color: #1a1a1a; /* Fondo oscuro para encabezados */
+    padding: 10px;
+    border-radius: 4px;
+    color: #00e676; /* Verde neón */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #fff; /* Texto blanco */
+}
+
+form input, form select {
+    padding: 8px;
+    border: 1px solid #444; /* Borde gris oscuro */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #333; /* Fondo oscuro para inputs */
+    color: #fff; /* Texto blanco en inputs */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #00b140; /* Verde */
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #009c34; /* Verde más oscuro */
+}
+
+.btn-guardar {
+    background-color: #28a745; /* Verde más claro */
+}
+
+.btn-agregar-usuario {
+    background-color: #007bff; /* Azul */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #fff; /* Texto blanco en la tabla */
+}
+
+table th {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #00e676; /* Verde */
+}
+
+table td button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.btn-editar {
+    background-color: #ffc107; /* Amarillo */
+}
+
+.btn-eliminar {
+    background-color: #dc3545; /* Rojo */
+}
+
+footer {
+    background-color: #333; /* Color oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.imagen {
+    width: 250px; /* Aumenta el ancho de la imagen */
+    height: 200px; /* Mantiene la proporción */
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(241, 245, 247, 0.7); /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imagen-perfil {
+    width: 50px; /* Aumenta el ancho de la imagen de perfil */
+    height: 50px; /* Mantiene la proporción */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.texto-perfil {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff; /* Texto blanco */
+}

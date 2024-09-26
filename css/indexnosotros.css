@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Color de texto predeterminado */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente oscuro a verde */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave */
+}
+
+.enlaces:hover {
+    color: #00e676; /* Color verde al pasar */
+}
+
+.registro, .ingreso {
+    padding: 8px 16px;
+    background-color: #00e676; /* Verde */
+    border: none;
+    cursor: pointer;
+    color: #ffffff; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.registro:hover, .ingreso:hover {
+    background-color: #009c34; /* Verde más oscuro al pasar */
+}
+
+.img1 {
+    height: auto; /* Mantener proporción */
+    max-height: 130%; /* Limitar altura máxima */
+    margin-top: -10px;
+}
+
+.display {
+    display: flex;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #00e676; /* Borde verde */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.texto {
+    max-width: 500px;
+    margin-top: 50px;
+    color: #ffffff; /* Texto blanco */
+}
+
+.sobre {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.mover {
+    margin-top: 1px;
+}

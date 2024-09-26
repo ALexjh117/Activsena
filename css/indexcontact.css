@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    font-family: Arial, sans-serif; /* Tipografía general */
+    color: #ffffff; /* Color de texto predeterminado */
+}
+
+header {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente negro a verde */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: #ffffff; /* Color de texto actualizado */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave */
+}
+
+.enlaces:hover {
+    color: #00e676; /* Color verde al pasar el mouse */
+}
+
+.registro,
+.ingreso {
+    padding: 8px 16px;
+    background-color: #00e676; /* Verde */
+    border: none;
+    cursor: pointer;
+    font-weight: bold; /* Cambiar a bold */
+    color: #ffffff; /* Color de texto del botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.registro:hover,
+.ingreso:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el mouse */
+    color: #00e676; /* Texto verde al pasar el mouse */
+}
+
+.img1 {
+    height: 70px;
+ 
+    width: 200px;
+}
+
+.display {
+    display: flex;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #00e676; /* Borde verde */
+}
+
+.cont2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin-left: 150px;
+}
+
+.texto {
+    max-width: 600px;
+}
+
+.icono {
+    margin-left: 40px;
+}
+
+.icono img {
+    width: 300px;
+    margin-top: 130px;
+    margin-right: 150px;
+}
+
+.mover {
+    margin-top: 1px;
+}
+
+/* Asegurar que el footer esté al final */
+html, body {
+    height: 100%;
+}
+
+main {
+    flex: 1; /* Permitir que el main ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+}

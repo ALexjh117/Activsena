@@ -1,0 +1,154 @@
+/* Estilos básicos para el diseño de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente negro a verde */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-box1 {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff; /* Color de texto en enlaces */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #00e676; /* Color al pasar el mouse */
+}
+
+/* Estilo para la barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #2d2d2d; /* Fondo oscuro */
+    padding: 20px;
+    position: fixed;
+    top: 108px;
+    bottom: 0;
+    border-right: 1px solid #444; /* Borde más oscuro */
+    overflow-y: auto;
+}
+
+.sidebar section {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #00e676; /* Color verde para títulos */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+    margin-left: 270px; /* Espacio para la barra lateral */
+    padding: 20px;
+    background-color: #2d2d2d; /* Fondo oscuro */
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #00e676; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el mouse */
+    color: #00e676; /* Texto verde al pasar el mouse */
+}
+
+/* Estilo para la cuadrícula de eventos */
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.event-item {
+    background-color: #3a3a3a; /* Fondo de eventos */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #444; /* Borde más oscuro */
+}
+
+.event-item img {
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.event-item p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Sección de estilos para un mejor espaciado */
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(40, 40, 40, 0.9); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    margin: 0;
+    padding: 0;
+    color: #ecf0f1; /* Texto claro */
+}
+
+header {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente oscuro a verde */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #00e676; /* Borde verde */
+}
+
+.imagen {
+    width: 380px; /* Tamaño de la imagen */
+    height: auto;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.subtitulo {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.flex-box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.boton, .boton-feedback {
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente oscuro a verde */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: linear-gradient(135deg, #00b248, #28b463); /* Gradiente más oscuro */
+}
+
+.boton-feedback {
+    background: linear-gradient(135deg, #2980b9, #3498db); /* Gradiente azul */
+}
+
+.boton-feedback:hover {
+    background: linear-gradient(135deg, #2471a3, #2980b9); /* Gradiente azul más oscuro */
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(45, 45, 45, 0.8); /* Fondo oscuro transparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 225, 102, 0.3); /* Fondo verde claro */
+}
+
+.lista-horas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-horas li {
+    background-color: rgba(0, 225, 102, 0.8); /* Verde consistente */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-resumen {
+    background-color: rgba(0, 225, 102, 0.4); /* Fondo más claro */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.barra {
+    height: 30px;
+    background-color: #00e676; /* Verde para la barra */
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.descripcion-barra {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centrar texto */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #343a40, #00e676); /* Gradiente oscuro a verde */
+    color: #ecf0f1;
+    margin-top: 20px;
+}
+
+
+
